@@ -11,6 +11,7 @@ class TopComponent extends StatefulWidget {
 
 class _TopComponentState extends State<TopComponent> {
   bool pressed = false;
+  // From gallery 'Androids Saga' on https://imgur.com/gallery/1NEp1
   final imageUrl = 'https://i.imgur.com/80Mh9uc.png';
 
   @override
