@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'navigation.dart';
+import 'tutorial_fling.dart';
 
 void main() => runApp(MyApp());
 
