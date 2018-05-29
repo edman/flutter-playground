@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'cached_network_image_file_location.dart';
+import 'navigation.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
+      home:Scaffold(
         appBar: new AppBar(
           title: new Text('Playground'),
         ),
@@ -20,4 +20,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
