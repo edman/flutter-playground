@@ -11,13 +11,15 @@ class TopComponent extends StatefulWidget {
 class _TopComponentState extends State<TopComponent> {
   @override
   Widget build(BuildContext context) {
-    final list = List.filled(5, "a");
-    print(list);
+    final filled = List.filled(5, 'a');
+    final generate = List.generate(5, (index) => 'a');
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text("List.filled(5, 'a') => $list"),
+          Text("List.filled(5, 'a') => $filled"),
+          Text("List.generate(5, (index) => 'a') => $generate"),
         ],
       ),
     );
